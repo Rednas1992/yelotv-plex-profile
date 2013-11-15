@@ -1,0 +1,15 @@
+= Yelo.tv plex dlna profile
+
+This profile is not fully working ... yet!
+
+== Where to put this file?
+
+* Mac OS X : ~/Library/Application Support/Plex Media Server/Profiles
+
+Restart the plex media server to recognize this file.
+
+== Extra information :
+
+* http://klantenservice.telenet.be/content/welke-formaten-van-foto-s-filmpjes-en-muziek-kan-ik-via-yelo-tv-delen-op-mijn-tv[Supported formats].
+* http://forums.plexapp.com/index.php/topic/69973-osmosys-dms-dlna-profile[Yelo.tv plex forum post].
+* http://forums.plexapp.com/index.php/topic/73702-writing-profiles-for-dlna-devices[How to write plex profiles].

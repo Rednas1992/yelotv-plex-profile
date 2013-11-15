@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Clients>
+    <Client name="Yelo">
+        <Identification>
+            <Header name="FriendlyName.dlna.org" substring="5810CX"/>
+            <Header name="User-Agent" substring="L21XTLNDGRD/v4.11-rc-356-g90f6124"/>
+            <Header name="User-Agent" substring="L21XTLNDGRD"/>
+        </Identification>
+
+        <TranscodeTargets>
+            <VideoProfile protocol="hls" container="mp4" codec="h264" audioCodec="aac" context="streaming">
+                <Setting name="SubtitleSize" value="100"/>
+                <Setting name="AudioSyncFlags" value="3"/>
+            </VideoProfile>
+            <MusicProfile container="mp3" codec="mp3"/>
+            <PhotoProfile container="jpeg"/>
+        </TranscodeTargets>
+
+        <DirectPlayProfiles>
+            <VideoProfile container="mpeg" codec="mpeg2video" audioCodec="ac3"/>
+            <VideoProfile container="mpegts" codec="mpeg2video" audioCodec="ac3"/>
+            <VideoProfile container="mp4" codec="h264" audioCodec="aac"/>
+            <MusicProfile container="mp3" codec="mp3"/>
+            <MusicProfile container="aac" codec="aac"/>
+            <PhotoProfile container="jpeg,gif,png"/>
+        </DirectPlayProfiles>
+
+
+        <CodecProfiles>
+            <VideoCodec name="mpeg2video">
+                <Limitations>
+                    <UpperBound name="video.width" value="1920"/>
+                    <UpperBound name="video.height" value="1080"/>
+                </Limitations>
+            </VideoCodec>
+
+            <VideoCodec name="mpeg4">
+                <Limitations>
+                    <UpperBound name="video.width" value="1920"/>
+                    <UpperBound name="video.height" value="1080"/>
+                </Limitations>
+            </VideoCodec>
+            <VideoCodec name="h264">
+                <Limitations>
+                    <UpperBound name="video.width" value="1920"/>
+                    <UpperBound name="video.height" value="1080"/>
+                </Limitations>
+            </VideoCodec>
+            <VideoAudioCodec name="aac,mp3,ac3">
+                <Limitations>
+                    <UpperBound name="audio.channels" value="6"/>
+                </Limitations>
+            </VideoAudioCodec>
+        </CodecProfiles>
+    </Client>
+</Clients>
