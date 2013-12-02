@@ -6,6 +6,7 @@ Got Audio / subtitles transcoding working
 
 == Where to put this file?
 
+* Windows : c:/Users/<username>/Local Settings/application data/plex media server/profiles
 * Mac OS X : ~/Library/Application Support/Plex Media Server/Profiles
 
 Restart the plex media server to recognize this file.
