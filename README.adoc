@@ -11,8 +11,16 @@ Got Audio / subtitles transcoding working
 
 Restart the plex media server to recognize this file.
 
-== Extra information :
+== Extra information
 
 * http://klantenservice.telenet.be/content/welke-formaten-van-foto-s-filmpjes-en-muziek-kan-ik-via-yelo-tv-delen-op-mijn-tv[Yelo tv supported formats].
 * http://forums.plexapp.com/index.php/topic/69973-osmosys-dms-dlna-profile[Yelo tv plex forum post].
 * http://forums.plexapp.com/index.php/topic/73702-writing-profiles-for-dlna-devices[How to write plex profiles].
+
+== Contributing
+
+. Fork it
+. Create your feature branch (_git checkout -b my-new-feature_)
+. Commit your changes (_git commit -am 'Add some feature'_)
+. Push to the branch (_git push origin my-new-feature_)
+. Create new Pull Request
